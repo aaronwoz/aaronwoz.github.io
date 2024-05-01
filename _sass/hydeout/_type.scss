@@ -125,6 +125,11 @@ a[href^='#fnref:'] {
   font-weight: 300;
 }
 
+.copyright {
+  font-size: 50%;
+  margin-top: 1rem;
+}
+
 // SVG Icons
 a svg {
   fill: $link-color;
@@ -139,8 +144,3 @@ a svg,
   vertical-align: middle;
 }
 
-.copyright {
-  font-size: 50%;
-  margin-top: 1rem;
-  margin-bottom: 0%;
-}
