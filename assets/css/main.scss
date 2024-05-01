@@ -2,14 +2,15 @@
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
 ---
+
+@import "hydeout";
+
 //Custom styles
 
-$sidebar-width: 12rem !default;
+$sidebar-width: 14rem !default;
 
 .copyright {
     font-size: 0.5em;
     margin-top: 1rem;
     color: $gray-4;
   }
-
-  @import "hydeout";
